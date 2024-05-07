@@ -1,0 +1,50 @@
+.imagem-1 {
+  background-image: url(../../assets/images/imagemfundo1.png);
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: 45%;
+}
+
+.container-fluid {
+  height: 100vh;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sessao-2 {
+  background-color: #0e3e29;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imagem-2 {
+  background-image: url(../../assets/images/imagem.png);
+  height: 100vh;
+  width: 100%;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+.sessao-2 {
+  .flex-fill {
+    justify-content: center;
+  }
+
+  .col-5 {
+    max-width: 60%;
+    margin-top: 60px;
+    margin: 60px;
+    padding: 40px;
+  }
+}
+.inter-font {
+  font-family: "Inter", sans-serif;
+}
+
+.space-font {
+  font-family: "Space Grotesk", sans-serif;
+}
